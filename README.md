@@ -15,5 +15,5 @@ Este es un proyecto de página web que simula un "Etch-a-Sketch" digital. Puedes
 
 # Copyright
 - Desarrollado por Valentín Taverna.
-- GitHub: (Enlace al repositorio)[https://github.com/valentave/Etch-a-Sketch]
-- Live preview: (Enlace a la vista previa)[https://valentave.github.io/Etch-a-Sketch/]
+- GitHub: [Enlace al repositorio](https://github.com/valentave/Etch-a-Sketch)
+- Live preview: [Enlace a la vista previa](https://valentave.github.io/Etch-a-Sketch/)
