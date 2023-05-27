@@ -29,6 +29,7 @@ let generateGrid = function() {
   for (let i = 0; i < gridSize * gridSize; i++) {
     const cell = document.createElement("grid-cell");
     cell.classList.add("grid-cell");
+    cell.classList.add("no-border");
     cell.setAttribute("style", "background: " + background);
     gridContainer.appendChild(cell);
 
@@ -119,8 +120,6 @@ btnEraser.addEventListener("click", () => { // cambia el color al del background
 
 btnClean.addEventListener("click", () => { // rellena la cuadrícula con el color del
   generateGrid();                               // background
-  btnRainbow.classList.remove("active");
-  btnBlackGrade.classList.remove("active");
 });
 
 btnRandom.addEventListener("click", () => { // cambia el color a uno random

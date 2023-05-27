@@ -8,21 +8,35 @@
     <title>Etch-a-Sketch</title>
 </head>
 <body>
+    <header>
+        <h1>Etch A Sketch</h1>
+    </header>
     <main>
-        <input type="color" id="paint-color">
-        <button id="btn-eraser">Borrar</button>
-        <button id="btn-clean">Limpiar</button>
-        <button id="btn-random">Random</button>
-        <button id="btn-grid">Grilla</button>
-        <button id="btn-rainbow">Arcoíris</button>
-        <button id="btn-black-grade">Negro gradual</button>
-        <input type="range" id="grid-size-slider" min="1" max="100" value="16">
-        <input type="color" id="background-color" value="#ffffff">
+        <div id="buttons">
+            <div id="color">
+                <span>Color</span>
+                <input type="color" id="paint-color">
+            </div>
+            <button id="btn-eraser">Borrar</button>
+            <button id="btn-clean">Limpiar</button>
+            <button id="btn-random">Color aleatorio</button>
+            <button id="btn-grid">Grilla</button>
+            <button id="btn-rainbow">Arcoíris</button>
+            <button id="btn-black-grade">Sombra gradual</button>
+            <div id="slider">
+                <span>Min: 1 - Max: 100</span>
+                <input type="range" id="grid-size-slider" min="1" max="100" value="16">
+            </div>
+            <div id="background">
+                <span>Fondo</span>
+                <input type="color" id="background-color" value="#ffffff">
+            </div>
+        </div>
         <div id="grid-container">
         </div>
     </main>
     <footer>
-
+        <p>© Valentín Taverna</p>
     </footer>
     <script src="script.js"></script>
 </body>
